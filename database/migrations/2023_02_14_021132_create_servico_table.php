@@ -25,9 +25,6 @@ return new class extends Migration
             $table->string('descricao_resolucao');
             $table->string('descricao_observacao');
             $table->timestamps();
-            $table->foreign('id_cliente')->references('id')->on('users');
-            $table->foreign('id_equipamento')->references('id')->on('equipamento');
-            $table->foreign('id_orcamento')->references('id')->on('orcamento');
         });
     }
 

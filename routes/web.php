@@ -13,6 +13,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('teste', function () {
+    return view('teste');
+});
+
+
+//Rotas de View
+
 Route::get('/', function () {
     return view('login');
 });
+
+
+Route::get('admin', function () {
+    return view('admin.admin');
+});
+
+
+//Rotas de cadastro
+
+
+//Rotas de consulta
+
+
+//Rotas de edição 
+
+
+//Rotas de exclusão
