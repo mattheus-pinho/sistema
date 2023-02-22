@@ -13,20 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('teste', function () {
-    return view('teste');
+Route::get('/login', function () {
+    return view('login');
 });
 
 
 //Rotas de View
 
 Route::get('/', function () {
-    return view('login');
+    return view('home');
 });
 
 
-Route::get('admin', function () {
-    return view('admin.admin');
+Route::get('teste', function () {
+    return view('teste');
 });
 
 
