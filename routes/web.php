@@ -32,6 +32,9 @@ Route::get('teste', function () {
 
 //Rotas de cadastro
 
+Route::post('/orcar', function () {
+    
+});
 
 //Rotas de consulta
 

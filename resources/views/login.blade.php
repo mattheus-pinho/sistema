@@ -35,11 +35,9 @@
                     <h2 class="login-title">Entre</h2>
                     <form action="#!">
                       <div class="form-group">
-                        <label for="telefone" class="sr-only">Telefone</label>
                         <input type="text" name="telefone" id="telefone" class="form-control" placeholder="telefone">
                       </div>
                       <div class="form-group mb-3">
-                        <label for="os" class="sr-only">Número de O.S</label>
                         <input type="text" name="os" id="os" class="form-control" placeholder="Número de os">
                       </div>
                       <div class="d-flex justify-content-between align-items-center mb-5">
