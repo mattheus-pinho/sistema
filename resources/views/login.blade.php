@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="col-sm-6 col-md-5 form-section">
-            <form action="" method="post">
+            <form action="/cliente" method="post">
                 @csrf
                 <div class="login-wrapper">
                     <h2 class="login-title">Entre</h2>
@@ -41,16 +41,46 @@
                         <input type="text" name="os" id="os" class="form-control" placeholder="Número de os">
                       </div>
                       <div class="d-flex justify-content-between align-items-center mb-5">
-                        <input name="login" id="login" class="btn login-btn" type="button" value="Login">
+                        <input name="login" id="login" class="btn login-btn" type="submit" value="Login">
                       </div>
                     </form>           
-                    <p class="login-wrapper-footer-text">Acesso de Funcionários: <a href="#!" class="text-reset">Aqui</a></p>
+                    <p class="login-wrapper-footer-text">Acesso de Funcionários: <a style="color:#0d6efd;" type="button" data-bs-toggle="modal" data-bs-target="#modal-funcionario">Aqui</a></p>
                   </div>
             </form>
           </div>
         </div>
       </div>
 
+      <!--Modal form funcionario-->
+      <div class="modal fade" id="modal-funcionario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Acesso de funcionarios</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <form action="/funcionario" method="post">
+                @csrf
+                <div class="login-wrapper">
+                    <h2 class="login-title">Entre</h2>
+                    <form action="#!">
+                      <div class="form-group">
+                        <input type="mail" name="email" id="email" class="form-control" placeholder="Email">
+                      </div>
+                      <div class="form-group mb-3">
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center mb-5">
+                        <input name="login" id="login" class="btn login-btn" type="submit" value="Login">
+                      </div>
+                    </form>           
+                  </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
 <style>
     
 

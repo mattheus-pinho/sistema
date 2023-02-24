@@ -18,6 +18,8 @@ Route::get('/login', function () {
 });
 
 
+
+
 //Rotas de View
 
 Route::get('/', function () {
@@ -36,10 +38,3 @@ Route::post('/orcar', function () {
     
 });
 
-//Rotas de consulta
-
-
-//Rotas de edição 
-
-
-//Rotas de exclusão

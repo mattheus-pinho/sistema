@@ -134,90 +134,86 @@
         <div class="wrapper">
             <h2 class="text-center mb-5">Preços Tabelados</h2>
             <div class="container">
+                <!--Primeira linhda de cards-->
                 <div class="row">
                     <!--Card Formatação-->
-                    <div class="col-md-4">
-                        <div class="pricing__item">
-                            <h3 class="pricing__title">Formatação sem Backup</h3>
-                            <div class="pricing__price"><span class="pricing__currency">$</span>70.00</div>
-                            <p class="pricing__sentence">Formatação rápida de acordo com o gosto do cliente</p>
-                            <ul class="pricing__feature-list">
-                                <li class="pricing__feature">Deixe sua máquina zerada da forma como preferir</li>
-                            </ul>
-                            <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
+                        <div class="col-md-4">
+                            <div class="pricing__item">
+                                <h3 class="pricing__title">Formatação sem Backup</h3>
+                                <div class="pricing__price"><span class="pricing__currency">$</span>70.00</div>
+                                <p class="pricing__sentence">Formatação rápida de acordo com o gosto do cliente</p>
+                                <ul class="pricing__feature-list">
+                                    <li class="pricing__feature">Deixe sua máquina pronta para uso, da forma como preferir</li>
+                                </ul>
+                                <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
+                            </div>
                         </div>
-                    </div>
                     <!--Card Limpeza-->
-                    <div class="col-md-4">
-                    <div class="pricing__item">
-                        <h3 class="pricing__title">Limpeza de Computador</h3>
-                        <div class="pricing__price"><span class="pricing__currency">$</span>50.00</div>
-                        <p class="pricing__sentence">Small business solution</p>
-                        <ul class="pricing__feature-list">
-                            <li class="pricing__feature">Unlimited calls</li>
-                            <li class="pricing__feature">Free hosting</li>
-                            <li class="pricing__feature">40MB of storage space</li>
-                        </ul>
-                        <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
-                    </div>
-                </div>
-                <!--Card montagem-->
-                <div class="col-md-4">
-                    <div class="pricing__item">
-                        <h3 class="pricing__title">Montagem de Computador</h3>
-                        <div class="pricing__price"><span class="pricing__currency">$</span>90.00</div>
-                        <p class="pricing__sentence">Montagem de maquinas com configuração personalizada</p>
-                        <ul class="pricing__feature-list">
-                            <li class="pricing__feature">Unlimited calls</li>
-                            <li class="pricing__feature">Free hosting</li>
-                            <li class="pricing__feature">40MB of storage space</li>
-                        </ul>
-                        <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
-                    </div>
-                </div>
-                    
-            </div>
-            <!--Segunda linhda de cards-->
-            <div class="row">
-                <!--Card Formatação-->
-                    <div class="col-md-4">
+                        <div class="col-md-4">
                         <div class="pricing__item">
-                            <h3 class="pricing__title">Formatação Com Backup</h3>
-                            <div class="pricing__price"><span class="pricing__currency">$</span>70.00</div>
-                            <p class="pricing__sentence">Salvamos suas Informações</p>
+                            <h3 class="pricing__title">Limpeza de Computador</h3>
+                            <div class="pricing__price"><span class="pricing__currency">$</span>60.00</div>
+                            <p class="pricing__sentence">Mantenha seu equipamento em pleno funcionamento</p>
                             <ul class="pricing__feature-list">
-                                <li class="pricing__feature">Alteração de valor apenas acima de 500 Gigas</li>
-                                <li class="pricing__feature">1 Mês de garantia no backup</li>
+                                <li class="pricing__feature">Faça a higienização completa conosco, troca de pasta térmica e limpeza da fonte inclusas.</li>
                             </ul>
                             <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
                         </div>
-                    </div>
-                <!--Card Limpeza-->
-                <div class="col-md-4">
-                    <div class="pricing__item">
-                        <h3 class="pricing__title">Limpeza de Notebook</h3>
-                        <div class="pricing__price"><span class="pricing__currency">$</span>70.00</div>
-                        <p class="pricing__sentence">Mantenha seu equipamento limpo e funcional</p>
-                        <ul class="pricing__feature-list">
-                            <li class="pricing__feature">Evite que seu notebook diminua a vida util ou te deixe na mão quando mais precisar</li>
-                        </ul>
-                        <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
-                    </div>
+                        </div>
+                    <!--Card montagem-->
+                        <div class="col-md-4">
+                            <div class="pricing__item">
+                                <h3 class="pricing__title">Montagem de Computador</h3>
+                                <div class="pricing__price"><span class="pricing__currency">$</span>90.00</div>
+                                <p class="pricing__sentence">Montagem de maquinas com configuração personalizada</p>
+                                <ul class="pricing__feature-list">
+                                    <li class="pricing__feature">Ajudamos você entender sua nescessidade e encontrar os melhores preços.</li>
+                                </ul>
+                                <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
+                            </div>
+                        </div>
+                        
                 </div>
-                <!--Card montagem-->
-                <div class="col-md-4">
-                <div class="pricing__item">
-                    <h3 class="pricing__title">Diagnostico</h3>
-                    <div class="pricing__price"><span class="pricing__currency">$</span>30.00</div>
-                    <p class="pricing__sentence">Não sabe qual o problema do equipamento? Venha fazer um diagnostico</p>
-                    <ul class="pricing__feature-list">
-                        <li class="pricing__feature">Realizamos os testes nescessários</li>
-                        <li class="pricing__feature">Receba um relatório da saúde do equipamento e um orçamento personalizado</li>
-                    </ul>
-                    <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
-                </div>
-            </div>
-                
+                <!--Segunda linhda de cards-->
+                <div class="row">
+                    <!--Card Formatação-->
+                        <div class="col-md-4">
+                            <div class="pricing__item">
+                                <h3 class="pricing__title">Formatação Com Backup</h3>
+                                <div class="pricing__price"><span class="pricing__currency">$</span>70.00</div>
+                                <p class="pricing__sentence">Salvamos suas Informações</p>
+                                <ul class="pricing__feature-list">
+                                    <li class="pricing__feature">Alteração de valor apenas acima de 200 Gigas.</li>
+                                    <li class="pricing__feature">1 Mês de garantia no backup.</li>
+                                </ul>
+                                <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
+                            </div>
+                        </div>
+                    <!--Card Limpeza-->
+                        <div class="col-md-4">
+                            <div class="pricing__item">
+                                <h3 class="pricing__title">Limpeza de Notebook</h3>
+                                <div class="pricing__price"><span class="pricing__currency">$</span>70.00</div>
+                                <p class="pricing__sentence">Mantenha seu equipamento limpo e funcional</p>
+                                <ul class="pricing__feature-list">
+                                    <li class="pricing__feature">Evite que seu notebook tenha vida util reduzida e te deixe na mão quando mais precisar.</li>
+                                </ul>
+                                <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
+                            </div>
+                        </div>
+                    <!--Card montagem-->
+                        <div class="col-md-4">
+                        <div class="pricing__item">
+                            <h3 class="pricing__title">Diagnostico</h3>
+                            <div class="pricing__price"><span class="pricing__currency">$</span>30.00</div>
+                            <p class="pricing__sentence">Não sabe qual o problema do equipamento? Venha fazer um diagnostico</p>
+                            <ul class="pricing__feature-list">
+                                <li class="pricing__feature">Realizamos os testes nescessários</li>
+                                <li class="pricing__feature">Receba um relatório da saúde do equipamento e um orçamento personalizado.</li>
+                            </ul>
+                            <a class="btn btn-read-more" href="#sec-orcamento">Agende</a>
+                        </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -244,7 +240,7 @@
                         
                         <div class="lab-grid-cell lab-grid-cell--mb-2x w-third--d w-half--t w-full--m">
                         <div class="floating-label-wrap">
-                            <input type="email" class="form-control" id="field-2" placeholder="Email">
+                            <input type="email" class="form-control" id="field-2" placeholder="Email (Opcional)">
                         </div>
                         <!-- .floating-label-wrap --> 
                         </div>
