@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FuncionarioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,10 +28,13 @@ Route::get('/', function () {
 });
 
 
+Route::get('admin', function () {
+    return view('admin.admin');
+});
+
 Route::get('teste', function () {
     return view('teste');
 });
-
 
 //Rotas de cadastro
 
@@ -38,3 +42,11 @@ Route::post('/orcar', function () {
     
 });
 
+
+Route::post('cadastrarFuncionario', [FuncionarioController::class, 'store']);
+
+
+
+//Rotas auth
+
+Route::post('autenticarFuncionario', [FuncionarioController::class, 'autenticarFuncionario']);

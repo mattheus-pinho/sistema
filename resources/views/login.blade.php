@@ -60,7 +60,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body text-center">
-              <form action="/funcionario" method="post">
+              <form action="/autenticarFuncionario" method="post">
                 @csrf
                 <div class="login-wrapper">
                     <h2 class="login-title">Entre</h2>
@@ -69,7 +69,7 @@
                         <input type="mail" name="email" id="email" class="form-control" placeholder="Email">
                       </div>
                       <div class="form-group mb-3">
-                        <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Password">
                       </div>
                       <div class="d-flex justify-content-between align-items-center mb-5">
                         <input name="login" id="login" class="btn login-btn" type="submit" value="Login">

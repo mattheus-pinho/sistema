@@ -13,7 +13,14 @@
         <!--Menu do administrador-->
         <x-navbarAdmin></x-navbarAdmin>
 
-        
+        <form action="/cadastrarFuncionario" method="post">
+            @csrf
+            <input type="text" name="nome" id="nome">
+            <input type="password" name="senha" id="senha">
+            <input type="email" name="email" id="email">
+            <input type="tel" name="telefone" id="telefone">
+            <input type="submit" value="Cadastrar">
+        </form>
     </div>
     
 </body>
